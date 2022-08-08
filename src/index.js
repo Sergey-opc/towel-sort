@@ -19,6 +19,7 @@ module.exports = function towelSort (matrix) {
                     chek = true;
                     pass[k] = matrix[i][j];
                     k++;
+                    //chek
                 }
             }
         }
