@@ -5,6 +5,7 @@ module.exports = function towelSort (matrix) {
     let chek = false;
     let pass = [];
     let k = 0;
+    if (matrix){
     for (let i = 0; i < matrix.length; i++) {
         if (chek) {
             for (let j = 0; j < matrix[i].length; j++) {
@@ -23,4 +24,6 @@ module.exports = function towelSort (matrix) {
         }
     }
     return (pass);
+    }
+    return([]);
 }
